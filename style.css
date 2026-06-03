@@ -12,7 +12,7 @@ body {
   margin-top:-1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
-  height: 5mm;
+  
  }
 
 .topmenu {
@@ -40,7 +40,7 @@ body {
   padding-left: 2cm;
   /* Add the styles here */
   color:white;
-  font_size:30px;
+  font-size:30px;
 }
 
 .profile_name .contact_info {
@@ -120,6 +120,8 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .skill {
@@ -139,7 +141,7 @@ h2 {
   align-items: center;
 }
 
-.skills h6 {
+#skills h6 {
   align-items: center;
   font-size: 20px;
   margin-block-start: 8px;
@@ -147,7 +149,7 @@ h2 {
   font-weight: bold;
 } 
 
-.skills p {
+#skills p {
   align-items: center;
   font-size: 15px;
   color: gray;
@@ -290,7 +292,8 @@ input, textarea {
 }
 
 fieldset {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;  
   padding: 25px; 
